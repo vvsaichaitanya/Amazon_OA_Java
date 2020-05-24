@@ -1,0 +1,2 @@
+# Amazon_OA_Java
+This Repository contains the java solutions for the Amazon OA Questions found [here](https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions/?fbclid=IwAR2nBmLdVU8o1OwGKtHhjPCw3sMa5iMziZLUpjcD_0_jZARVRAVgKFlu4Hw)
