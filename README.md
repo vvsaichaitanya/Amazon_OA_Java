@@ -6,4 +6,4 @@
 | Name   |      Frequency      |  Level | Status |
 |:----------|:-------------:|:------:|:------:|
 | Zombie in Matrix (Min hours to send file to all available servers) |  ⭐⭐⭐ | Experienced |✅ |
-| Top K Frequently Mentioned Keywords |  ⭐⭐⭐ | Experienced | |
+| Top K Frequently Mentioned Keywords |  ⭐⭐⭐ | Experienced |✅ |
