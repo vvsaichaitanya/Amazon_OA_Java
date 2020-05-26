@@ -5,9 +5,9 @@
 
 | Index| Name   |      Frequency      |  Level | Status | Notes |
 |:-------------:|:----------|:-------------:|:------:|:------:|:------:|
-|1.| [Top K Frequently Mentioned Keywords](1.K Frequently Mentioned Words) |  ⭐⭐⭐ | Experienced |✅ ||
-|2.| [Zombie in Matrix (Min hours to send file to all available servers)](2.Zombie In Matrix) |  ⭐⭐⭐ | Experienced |✅ | |
-|4.| [Product Suggestions System](4.Search Suggestions System) |  ⭐⭐ | Experienced |✅ |  Try solving with Tries |
-|5.| [Number of Clusters](5.Number of Clusters) |  ⭐⭐ | Experienced |✅ |  Try to reduce the call stack without recursion |
-|6.| [Reorder Data in Log Files](6.Reorder Data in Log Files) |  ⭐⭐ | Experienced |✅ |  |
-|8.| [K Closes Points](8.K Closest Points) |  ⭐ | Intern |✅ |  |
+|1.| [Top K Frequently Mentioned Keywords](1.KFrequentlyMentionedWords) |  ⭐⭐⭐ | Experienced |✅ ||
+|2.| [Zombie in Matrix (Min hours to send file to all available servers)](2.ZombieInMatrix) |  ⭐⭐⭐ | Experienced |✅ | |
+|4.| [Product Suggestions System](4.SearchSuggestionsSystem) |  ⭐⭐ | Experienced |✅ |  Try solving with Tries |
+|5.| [Number of Clusters](5.NumberOfClusters) |  ⭐⭐ | Experienced |✅ |  Try to reduce the call stack without recursion |
+|6.| [Reorder Data in Log Files](6.ReorderDataInLogFiles) |  ⭐⭐ | Experienced |✅ |  |
+|8.| [K Closes Points](8.KClosestPoints) |  ⭐ | Intern |✅ |  |
