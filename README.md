@@ -3,7 +3,10 @@
 
 ###### List of Questions:
 
-| Name   |      Frequency      |  Level | Status |
-|:----------|:-------------:|:------:|:------:|
-| Zombie in Matrix (Min hours to send file to all available servers) |  ⭐⭐⭐ | Experienced |✅ |
-| Top K Frequently Mentioned Keywords |  ⭐⭐⭐ | Experienced |✅ |
+| Index| Name   |      Frequency      |  Level | Status | Notes |
+|:-------------:|:----------|:-------------:|:------:|:------:|:------:|
+|1.| Top K Frequently Mentioned Keywords |  ⭐⭐⭐ | Experienced |✅ ||
+|2.| Zombie in Matrix (Min hours to send file to all available servers) |  ⭐⭐⭐ | Experienced |✅ | |
+|4.| Product Suggestions System |  ⭐⭐ | Experienced |✅ |  Try solving with Tries |
+|5.| Number of Clusters |  ⭐⭐ | Experienced |✅ |  Try to reduce the call stack without recursion |
+|6.| Reorder Data in Log Files |  ⭐⭐ | Experienced |✅ |  |
