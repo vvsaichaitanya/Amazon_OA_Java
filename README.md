@@ -15,3 +15,10 @@
 |11.| [Min Cost to Connect Ropes](11.MinCostToConnectRopes) |  | Experienced |✅ |  |[link](https://leetcode.com/discuss/interview-question/344677)|
 |12.| [Treasure Island / Min Distance to Remove the Obstacle (BFS)](12.TreasureIsland) |  | Experienced |✅ |  |[link](https://leetcode.com/discuss/interview-question/347457)|
 |13.| [Favorite Genres](13.FavoriteGenres) |  ⭐⭐ | New Grad |✅ |  |[link](https://leetcode.com/discuss/interview-question/373006)|
+|14.| [Treasure Island 2](14.TreasureIsland2) |  |  |✅ |  |[link](https://leetcode.com/discuss/interview-question/356150)|
+|15.| [01 Matrix](15.01Matrix) |  |  |✅ |  |[link](https://leetcode.com/problems/01-matrix/)|
+|16.| [Merge Two Sorted Lists](16.MergeTwoSortedLists) | ⭐⭐ | [New Grad | Intern] |✅ |  |[link](https://leetcode.com/problems/merge-two-sorted-lists/)|
+|17.| [Most Common Word](17.MostCommonWord) | ⭐⭐ |  [Intern]|✅ |  |[link](https://leetcode.com/problems/most-common-word/)|
+|18.| [N-Ary Subtree with Max Average](18.SubtreeWithMaxAverage) |  |  |✅ |  |[link](https://leetcode.com/discuss/interview-question/349617)|
+|19.| [Subtree of Another Tree](19.SubtreeOfAnotherTree) | ⭐⭐ |[New Grad] |✅ |  |[link](https://leetcode.com/problems/subtree-of-another-tree/)|
+  

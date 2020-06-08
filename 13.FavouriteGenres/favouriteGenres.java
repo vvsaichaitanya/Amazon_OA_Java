@@ -24,7 +24,7 @@ class Playground {
                 songGenreMap.put(song, key);
             
         
-        // time complexity is total # of songs s. while space is total # of users + genres
+        // time complexity is total # of users * songs. while space is total # of users * genres
         for(String key: userSongs.keySet()) {
             Map<String, Integer> genreCount = new HashMap<>();
             for(String song: userSongs.get(key)) {
@@ -40,15 +40,17 @@ class Playground {
             userGenres.put(key, genreCount);
         }
         
-        for(String key: userGenres.keySet()){
+        // populates results in the desired format, time & space is users * genres
+        for(String key: userGenres.keySet()) {
          List<String> genres = new ArrayList<>();
-         for(String genre: userGenres.get(key).keySet()){
+         for(String genre: userGenres.get(key).keySet()) {
              if(userGenres.get(key).get(genre) == userMax.get(key)) 
                 genres.add(genre);
          }
          res.put(key, genres);
         }
         
+        // time is total number of users.
         for(String key: res.keySet())
             System.out.println(key+": "+res.get(key));
     }
