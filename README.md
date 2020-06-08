@@ -21,4 +21,6 @@
 |17.| [Most Common Word](17.MostCommonWord) | ⭐⭐ |  [Intern]|✅ |  |[link](https://leetcode.com/problems/most-common-word/)|
 |18.| [N-Ary Subtree with Max Average](18.SubtreeWithMaxAverage) |  |  |✅ |  |[link](https://leetcode.com/discuss/interview-question/349617)|
 |19.| [Subtree of Another Tree](19.SubtreeOfAnotherTree) | ⭐⭐ |[New Grad] |✅ |  |[link](https://leetcode.com/problems/subtree-of-another-tree/)|
-  
+|20.| [Prison Cells After N Days](20.PrisonCellsAfterNDays) |  | |✅ |  |[link](https://leetcode.com/problems/prison-cells-after-n-days/)|
+|21.| [Two Sum Unique Pairs](21.twoSumUniquePairs) | ⭐⭐ |[New Grad] |✅ |  |[link](https://leetcode.com/discuss/interview-question/372434)|
+|22.| [Find N Unique Integers Sum to Zero](22.FindNUniqueIntegersSumToZero) |  | |✅ |  |[link](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)|
