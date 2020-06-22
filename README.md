@@ -24,3 +24,7 @@
 |20.| [Prison Cells After N Days](20.PrisonCellsAfterNDays) |  | |✅ |  |[link](https://leetcode.com/problems/prison-cells-after-n-days/)|
 |21.| [Two Sum Unique Pairs](21.twoSumUniquePairs) | ⭐⭐ |[New Grad] |✅ |  |[link](https://leetcode.com/discuss/interview-question/372434)|
 |22.| [Find N Unique Integers Sum to Zero](22.FindNUniqueIntegersSumToZero) |  | |✅ |  |[link](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/)|
+|23.| [Spiral Matrix ii](23.SpiralMatrix2) | ⭐⭐ | [New Grad]|✅ |  |[link](https://leetcode.com/problems/spiral-matrix-ii/)|
+|24.| [Sub Strings Of Size K With K Distinct Chars](24.SubStringsOfSizeKWithKDistinctChars) |  | [New Grad]|✅ |  |[link](https://leetcode.com/discuss/interview-question/370112)|
+|24.| [Longest substring without repeating characters](25.LongestSubstringWithoutRepeatingCharacters) |  | [New Grad]|✅ |  |[link](https://leetcode.com/discuss/interview-question/370112)|
+|26.| [longest Vowel substring In a String](26.LongestVowelInaString) |  | |✅ |  |[link](https://leetcode.com/discuss/interview-question/233724)|
