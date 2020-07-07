@@ -28,3 +28,4 @@
 |24.| [Sub Strings Of Size K With K Distinct Chars](24.SubStringsOfSizeKWithKDistinctChars) |  | [New Grad]|✅ |  |[link](https://leetcode.com/discuss/interview-question/370112)|
 |24.| [Longest substring without repeating characters](25.LongestSubstringWithoutRepeatingCharacters) |  | [New Grad]|✅ |  |[link](https://leetcode.com/discuss/interview-question/370112)|
 |26.| [longest Vowel substring In a String](26.LongestVowelInaString) |  | |✅ |  |[link](https://leetcode.com/discuss/interview-question/233724)|
+|27.| [Generate Parentheses](27.generateParanthesis) | ⭐ | [Intern]|✅ |  |[link](https://leetcode.com/problems/generate-parentheses/)|

@@ -9,13 +9,14 @@ class Playground {
         
         List<String> words = topKFrequent(keywords, reviews, k);
             
-        for(String word: words){
-            System.out.println(word);
-        }
+        for(String word: words) System.out.println(word);
     }
     
     public static List<String> topKFrequent(String[] keys, String[] reviews, int k) {
         Map<String, Integer> wordFrequency = new HashMap<>();
+        Set<String> keywords = new HashSet<>(Arrays.asList(keys));
+        PriorityQueue<String> minHeap = new PriorityQueue<>((s1, s2) -> wordFrequency.get(s1) == wordFrequency.get(s2)? s2.compareTo(s1): wordFrequency.get(s1) - wordFrequency.get(s2));
+        List<String> ans = new ArrayList();
         
         for(int i=0; i < reviews.length; i++){
             Map<String, Integer> currentFrequency = new HashMap<>();
@@ -23,8 +24,9 @@ class Playground {
             String[] words = reviews[i].split(" ");
             
             for (int j = 0; j < words.length; j++) {
-                if (currentFrequency.get(words[j].toLowerCase())==null) {
-                    currentFrequency.put(words[j].toLowerCase(), 1);
+                String word = words[j].toLowerCase();
+                if (currentFrequency.get(word)==null && keywords.contains(word)) {
+                    currentFrequency.put(word, 1);
                 }
             }
             
@@ -32,8 +34,6 @@ class Playground {
                 wordFrequency.put(key, wordFrequency.getOrDefault(key, 0) + 1);
             }
         }
-        
-        PriorityQueue<String> minHeap = new PriorityQueue<String>((w1, w2) -> wordFrequency.get(w1).equals(wordFrequency.get(w2)) ? w2.compareTo(w1) : wordFrequency.get(w1) - wordFrequency.get(w2));
 
         // if the keywords list is not provided put all the word frequencies into the heap.
         // for (String word: wordFrequency.keySet()) {
@@ -42,14 +42,11 @@ class Playground {
         // }
 
         // fetch the word counts of the keywords provided from the wordFrequency map.
-        for(String key: keys){
-            if(wordFrequency.get(key) != null){
-                minHeap.offer(key);
-                if(minHeap.size() > k) minHeap.poll();
-            }
+        for(String key: wordFrequency.keySet()){
+            minHeap.offer(key);
+            if(minHeap.size() > k) minHeap.poll();
         }
         
-        List<String> ans = new ArrayList();
         while (!minHeap.isEmpty()) ans.add(minHeap.poll());
         Collections.reverse(ans);
         return ans;
